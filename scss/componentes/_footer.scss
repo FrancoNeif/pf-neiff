@@ -1,0 +1,12 @@
+/* footer */
+footer {
+    padding: 40px 0px;
+    margin: 40px 0px 0px 0px;
+    display: flex;  
+    background-color: black;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    @extend %shadowSection;
+}
+/* fin del footer */

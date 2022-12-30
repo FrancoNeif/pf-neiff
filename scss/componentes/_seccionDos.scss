@@ -1,0 +1,38 @@
+/* seccionDos */
+
+.sectionDos {
+    padding: 20px 0px;
+    margin: 40px auto;
+    background: black;
+    border-radius: 20px;
+    @extend %shadowSection;
+    .shadowChori {
+        box-shadow: 0 1px 4px rgba(194, 50, 187, 0.8),
+        -13px 0 10px -13px rgba(194, 50, 187, 0.8),
+        13px 0 10px -13px rgba(194, 50, 187, 0.8),
+        inset 0 0 20px rgba(194, 50, 187, 0.8);
+        border-radius: 30px;
+    }
+}
+
+/* boton */
+.btnChori {
+    font-family: 'trebuchet ms';
+    color: #FFFFF5;
+    font-size: 14px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #DEC1C9;
+    box-shadow: 1px 1px 1px #6B2670;
+    padding: 10px 25px;
+    border-radius: 17px;
+    border: 2px solid #5C5C5C;
+    background: #180619;
+    background: linear-gradient(to top, #180619, #A1A1A1);
+        &:hover {
+            color: #FFFFFF;
+            text-decoration: none;
+            background: #380F24;
+            background: linear-gradient(to top, #380F24, #DD3C8D);
+        }
+}
+/* fin de la seccion 2 */

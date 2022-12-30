@@ -1,0 +1,6 @@
+@mixin prefijos ($transformaciones) {
+    -webkit-transform: $transformaciones;
+    -o-transform: $transformaciones;
+    -moz-transform: $transformaciones;
+    transform: $transformaciones;
+}

@@ -1,0 +1,61 @@
+/* header */
+.homeHeader {
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    position: fixed;
+    width: $img-width;
+    z-index: 1;
+    .imgHeader {
+        z-index: 1;
+        transition: all 1s; 
+        &:hover {
+            box-shadow: 0 1px 4px rgba(194, 50, 187, 0.8),
+            -13px 0 10px -13px rgba(194, 50, 187, 0.8),
+            13px 0 10px -13px rgba(194, 50, 187, 0.8),
+            inset 0 0 20px rgba(194, 50, 187, 0.8);
+            border-radius: 50px;
+            font-size: 50px;
+            @include prefijos (scale(1.35) rotate(360deg));
+            z-index: 1;
+        }
+        
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: block;
+    width: 25%;
+    position: relative;
+    font-size: 14px;
+    top: 5px;
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+}
+
+ul ul li {
+    display: block;
+}
+
+ul li:hover ul {
+    display: block;
+    padding: 10px 10px;
+    margin: 10px 5px 0px 0px;
+    text-align: start;
+    border-radius: 30px;
+    background-color: rgba(109, 107, 107, 0.5);
+    box-shadow: 0 1px 4px rgba(194, 50, 187, 0.8),
+    -13px 0 10px -13px rgba(194, 50, 187, 0.8),
+    13px 0 10px -13px rgba(194, 50, 187, 0.8),
+    inset 0 0 20px rgba(194, 50, 187, 0.8);
+}
+
+/* fin del header */

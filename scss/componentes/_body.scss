@@ -1,0 +1,19 @@
+/* body */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* scroll del html y imagen de fondo del body */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("https://drive.google.com/uc?export=view&id=1nH_EmnueDzDRzV9aMzGDxiFM7GsFyCKR");
+    background-position: top;
+}
+/* fin del hmtl y body */

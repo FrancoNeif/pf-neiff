@@ -1,0 +1,31 @@
+/* seccionUno */
+.sectionUno {
+    padding: 10px 0px;
+    margin: 10px 0px 40px 0px;
+    background-color: black;
+    border-radius: 50px;
+    @extend %flex;
+    @extend %shadowSection;
+    .imgHome {
+        width: $img-width;
+        position: relative;
+        margin: 0 10px 0 10px;
+        box-shadow: 0 1px 4px rgba(194, 50, 187, 0.8),
+                -23px 0 20px -23px rgba(194, 50, 187, 0.8),
+                23px 0 20px -23px rgba(194, 50, 187, 0.8),
+                inset 0 0 40px rgba(194, 50, 187, 0.8);
+        border-radius: 20px;         
+    }
+}   
+
+.sectionContenido {
+    padding: 10px 0px;
+    margin: 10px 0px 40px 0px;
+    border-radius: 50px;
+    @extend %flex; 
+    align-items: flex-end;
+    .btnChori {
+        position: absolute;
+    }
+}
+/* fin de la seccionUno */

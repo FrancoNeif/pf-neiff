@@ -1,0 +1,31 @@
+/* seccionCuatro */
+
+.sectionCuatro {
+    padding: 40px 0px; 
+    margin: 40px auto;
+    background: black;
+    border-radius: 20px;
+    @extend %flex;
+    @extend %shadowSection;
+}
+
+.cabeChori {
+    box-shadow: 0 1px 4px rgba(194, 50, 187, 0.8),
+    -13px 0 10px -13px rgba(194, 50, 187, 0.8),
+    13px 0 10px -13px rgba(194, 50, 187, 0.8),
+    inset 0 0 50px rgb(194, 50, 187, 0.8);
+    border-radius: 30px;
+    background-color: #52179646;
+}
+
+
+/* seccionCuatro */
+.choriContenedor {
+    background-color: rgba(17, 16, 16, 0.329);
+    @extend %shadowSection;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+/* fin de seccionCuatro */
